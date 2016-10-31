@@ -929,6 +929,10 @@ a.btnRight{float:right;}
 
 #homeFullScreen .maskParent {display:table; width:100%;}
 
+#separador {
+	overflow:hidden;
+} 
+
 
 #fullScreenSliderWrapper{
 	display:table-cell;
