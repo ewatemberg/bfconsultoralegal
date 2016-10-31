@@ -69,7 +69,7 @@ $(document).ready(function() {
     /** FULLSCREEN IMAGE **/
 
     function fullscreenImage(){
-      $('#homeFullScreen').css({height:$(window).height()});
+      $('#homeFullScreen').css({height:$(window).height()-($(window).height()/7)});
       $('#homeFullScreen').css({width:$(window).width()});
     }
 
