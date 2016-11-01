@@ -929,8 +929,10 @@ a.btnRight{float:right;}
 
 #homeFullScreen .maskParent {display:table; width:100%;}
 
-#separador {
+#separador img{
 	overflow:hidden;
+	display:block;
+    margin:auto;
 } 
 
 
@@ -1448,6 +1450,12 @@ a#nextslide:hover, a#prevslide:hover {
 .camera_neko_skin .camera_caption > div{padding:22px;}
 .camera_neko_skin .camera_wrap .camera_pag .camera_pag_ul {text-align: center; background:#f7f7f7; border-bottom: 1px solid #eee}
 
+/** estilos configurados por emilio**/
+.title_first h2 {margin:0px;color:grey;} 
+.title_first h2:after{content:none;border-top: none;border-bottom: none;} 
+.title_second h2:after{content:none;border-top: none;border-bottom: none;margin: 0px;} 
+.subtitle_em h2{text-align: center;} 
+.subtitle_em h2:after{content:none;border-top: none;border-bottom: none;} 
 
 /*** MEDIA QUERIES ***/
 
