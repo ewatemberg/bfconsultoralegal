@@ -26,6 +26,9 @@
 	<link type="text/css" rel="stylesheet" href="js-plugin/isotope/css/style.css">
 	<!-- nekoAnim-->
 	<link rel="stylesheet" type="text/css" href="js-plugin/appear/nekoAnim.css" />
+		<!-- Supersized slider-->
+	<link rel="stylesheet" href="js-plugin/supersized/css/supersized.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="js-plugin/supersized/theme/supersized.shutter.css" type="text/css" media="screen" />
 	<!-- Owl carousel-->
 	<link rel="stylesheet" href="js-plugin/owl.carousel/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="js-plugin/owl.carousel/owl-carousel/owl.theme.css">	
@@ -54,7 +57,7 @@
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="status">
-			<img class="img-responsive" src="images/logo-big.png" alt="BF Consultoría Legal" />
+			<img class="img-responsive" align="middle" src="images/preloader.gif" alt="BF Consultoría Legal" />
 			Cargando...
 		</div>
 	</div>
@@ -64,49 +67,8 @@
 	================================================== -->
 	<!-- globalWrapper -->
 	<div id="globalWrapper">
-
-
-		<!-- slider -->
-		<section id="homeFullScreen" data-stellar-background-ratio="0.5" >
-			<div class="maskParent" >
-				<div class="paralaxMask"></div>
-				<div id="fullScreenSliderWrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12" style="overflow:hidden">	
-
-								<div id="logoBig">
-									<img class="img-responsive" src="images/logo-big.png" alt="Little Neko Ashley Bootstrap 3 Parallax One Page" />
-								</div>
-
-								<!--div class="owl-carousel nekoDataOwl" data-neko_items="1" data-neko_singleitem="true" data-neko_paginationnumbers="true" data-neko_transitionstyle="backSlide">
-
-
-									<div class="item">
-										<h1>Hello, we are Hideo</h1>							
-									</div>
-
-									<div class="item">
-										<h1>We come in peace</h1>
-									</div>
-
-									<div class="item">
-										<h1>Are you ready to come with us?</h1>
-									</div>
-
-								</div-->
-
-							</div>
-						</div>
-					</div>  
-					<!-- <a href="#about" class="homeBtn"><i class="icon-down iconRounded iconMedium"></i></a> -->
-				</div>
-			</div>
-		</section>
-		<!-- slider -->
-
 		<!-- header -->
-		<header class="navbar" id="mainHeader" role="banner">
+		<header class="navbar-fixed-top" id="mainHeader" role="banner">
 
 			<nav class="navbar navbar-default scrollMenu" role="navigation" id="resMainMenu">
 
@@ -126,7 +88,7 @@
 					<div class="collapse navbar-collapse">
 						<!-- Main navigation -->
 						<ul class="nav navbar-nav pull-right">
-							<li class="active"><a href="#homeFullScreen">Home</a></li>
+							<li class="active"><a href="#superSizedSlider">Home</a></li>
 							<li class="sep"></li>
 							<li><a href="#value">Valores</a></li>
 							<li class="sep"></li>
@@ -148,10 +110,24 @@
 		</header>
 		<!-- header -->
 
+		<!-- slider -->
+		<section id="superSizedSlider" class="scrollMenu">
+			<!--Arrow Navigation-->
+			<a id="prevslide" class="load-item"></a> <a id="nextslide" class="load-item"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div id="slidecaption"> </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- slider -->
+
 		<!-- ======================================= content ======================================= -->
 		
 		<!--inicio separador-->
-		<div class="row" style="margin:20px;">
+		<div class="row" style="padding:20px;background-color:white;">
 			<div id="separador" class="col-md-2 col-md-offset-5">
 				<img align="middle" src="images/separador.png" class="img-responsive" >
 			</div>
@@ -194,7 +170,7 @@
 		<!-- about -->
 		
 		<!--inicio separador-->
-		<div class="row" style="margin:20px;">
+		<div class="row" style="padding:20px;background-color:white;">
 			<div id="separador" class="col-md-2 col-md-offset-5">
 				<img align="middle" src="images/separador.png" class="img-responsive" >
 			</div>
@@ -221,7 +197,7 @@
 		<!-- mision -->
 
 		<!--inicio separador-->
-		<div class="row" style="margin:20px;">
+		<div class="row" style="padding:20px;background-color:white;">
 			<div id="separador" class="col-md-2 col-md-offset-5">
 				<img align="middle" src="images/separador.png" class="img-responsive" >
 			</div>
@@ -259,7 +235,7 @@
 		<!-- service -->
 
 		<!--inicio separador-->
-		<div class="row" style="margin:20px;">
+		<div class="row" style="padding:20px;background-color:white;">
 			<div id="separador" class="col-md-2 col-md-offset-5">
 				<img align="middle" src="images/separador.png" class="img-responsive" >
 			</div>
@@ -291,7 +267,7 @@
 		<!-- service -->
 
 		<!--inicio separador-->
-		<div class="row" style="margin:20px;">
+		<div class="row" style="padding:20px;background-color:white;">
 			<div id="separador" class="col-md-2 col-md-offset-5">
 				<img align="middle" src="images/separador.png" class="img-responsive" >
 			</div>
@@ -427,6 +403,9 @@
 	<script type="text/javascript" src="js-plugin/easing/jquery.easing.1.3.js"></script>
 	<!-- carousel -->
 	<script type="text/javascript" src="js-plugin/owl.carousel/owl-carousel/owl.carousel.js"></script>
+	<!-- Supersized slider -->
+	<script type="text/javascript" src="js-plugin/supersized/js/supersized.3.2.7.min.js"></script>
+	<script type="text/javascript" src="js-plugin/supersized/theme/supersized.shutter.min.js"></script>
 	<!-- Isotope -->
 	<script type="text/javascript" src="js-plugin/isotope/jquery.isotope.min.js"></script>
 	<script type="text/javascript" src="js-plugin/isotope/jquery.isotope.sloppy-masonry.min.js"></script>

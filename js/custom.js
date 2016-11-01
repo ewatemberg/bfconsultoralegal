@@ -1659,7 +1659,6 @@ function gaSSDSLoad (acct) {
 jQuery(function($){
 	"use strict";
 	if($('#superSizedSlider').length){
-
 		$('#superSizedSlider').height($(window).height());
 
 		$.supersized({
@@ -1693,11 +1692,11 @@ jQuery(function($){
                     thumb_links             :   0,          // Individual thumb links for each slide
                     thumbnail_navigation    :   0,          // Thumbnail navigation
                     slides                  :   [           // Slideshow Images
-                    {image : './images/slider/super/supersized-1.jpg', title : '<h1>We are creative androids</h1><a href="#team" class="btn btn-primary">learn more</a>', thumb : '', url : ''},
+                    {image : './images/slider/super/supersized-1.jpg', title : '', thumb : '', url : ''},
 
-                    {image : './images/slider/super/supersized-2.jpg', title : '<h1>We build beautiful websites</h1><a href="#works" class="btn btn-primary">check our portfolio</a>', thumb : '', url : ''},
+                    {image : './images/slider/super/supersized-2.jpg', title : '', thumb : '', url : ''},
 
-                    {image : './images/slider/super/supersized-3.jpg', title : '<h1>That\'s how we like it</h1><a href="#contact" class="btn btn-primary">call us</a>', thumb : '', url : ''}
+                    {image : './images/slider/super/supersized-3.jpg', title : '', thumb : '', url : ''}
                     ],
 
                     // Theme Options               
