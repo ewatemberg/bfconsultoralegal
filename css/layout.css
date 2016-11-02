@@ -943,7 +943,7 @@ a.btnRight{float:right;}
 	margin:auto;
 }
 
-#logoBig {margin-bottom: 22px;}
+/*#logoBig {margin-bottom: 22px;}*/
 #logoBig img{margin:auto; position: relative}
 #fullScreenSliderWrapper h1 {font-size: 22px;}
 
@@ -1797,12 +1797,12 @@ textarea#comments {height:87px;}
 }
 
 #status {
-	width:304px;
-	height:300px;
+	width:84px;
+	height:84;
 	position:absolute;
 	left:50%; /* centers the loading animation horizontally one the screen */
 	top:50%; /* centers the loading animation vertically one the screen */
-	margin:-125px 0 0 -150px; /* is width and height divided by two */
+	margin:-42px 0 0 -42px; /* is width and height divided by two */
 	text-align: center;
 	padding-top: 20px;
 }

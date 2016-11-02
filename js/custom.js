@@ -1660,8 +1660,11 @@ jQuery(function($){
 	"use strict";
 	if($('#superSizedSlider').length){
 		$('#superSizedSlider').height($(window).height());
-
-		$.supersized({
+        //inicio agregado por emilio
+        $('#slidecaption').height($(window).height()-($(window).height()/9));
+        $('#slidecaption').width($(window).width());
+		// fin agregado de emilio
+        $.supersized({
 
                     // Functionality
                     slideshow               :   1,          // Slideshow on/off
@@ -1692,7 +1695,7 @@ jQuery(function($){
                     thumb_links             :   0,          // Individual thumb links for each slide
                     thumbnail_navigation    :   0,          // Thumbnail navigation
                     slides                  :   [           // Slideshow Images
-                    {image : './images/slider/super/supersized-1.jpg', title : '', thumb : '', url : ''},
+                    {image : './images/slider/super/supersized-1.jpg', title : '<div id="logoBig"><img class="img-responsive" src="images/logo-big.png" alt="BF" /></div></div>', thumb : '', url : ''},
 
                     {image : './images/slider/super/supersized-2.jpg', title : '', thumb : '', url : ''},
 
