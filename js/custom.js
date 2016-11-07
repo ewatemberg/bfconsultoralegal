@@ -1697,7 +1697,7 @@ jQuery(function($){
                     slides                  :   [           // Slideshow Images
                     {image : './images/slider/super/supersized-1.jpg', title : '<div id="logoBig"><img class="img-responsive" src="images/logo-big.png" alt="BF" /></div></div>', thumb : '', url : ''},
 
-                    {image : './images/slider/super/supersized-2.jpg', title : '', thumb : '', url : ''},
+                    {image : './images/slider/super/supersized-2.jpg', title : '<div id="logoBig"><img class="img-responsive" src="images/flat-pic.png" alt="BF" /></div></div>', thumb : '', url : ''},
 
                     {image : './images/slider/super/supersized-3.jpg', title : '', thumb : '', url : ''}
                     ],
