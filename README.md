@@ -1,7 +1,6 @@
 BF Consultor&iacute;a Legal 
 =============================
 
-## Synopsis
 Home Page de la compañia.
 
 
