@@ -1696,11 +1696,17 @@ jQuery(function($){
                     thumb_links             :   0,          // Individual thumb links for each slide
                     thumbnail_navigation    :   0,          // Thumbnail navigation
                     slides                  :   [           // Slideshow Images
-                    {image : './images/slider/super/supersized-1.jpg', title : '<div id="logoBig"><img class="img-responsive" src="images/logo-big.png" alt="BF" /></div></div>', thumb : '', url : ''},
+                    {image : './images/slider/super/fondo2.jpg', title : '<div id="logoBig"><img class="img-responsive" src="images/solvencia.png" alt="BF" /></div></div>', thumb : '', url : ''},
 
-                    {image : './images/slider/super/supersized-2.jpg', title : '<div id="logoBig"><img class="img-responsive" src="images/flat-pic.png" alt="BF" /></div></div>', thumb : '', url : ''},
+                    {image : './images/slider/super/fondo1.jpg', title : '<div id="logoBig"><img class="img-responsive" src="images/logo-big.png" alt="BF" /></div></div>', thumb : '', url : ''},
 
-                    {image : './images/slider/super/supersized-3.jpg', title : '', thumb : '', url : ''}
+                    {image : './images/slider/super/fondo2.jpg', title : '<div id="logoBig"><img class="img-responsive" src="images/dinamismo.png" alt="BF" /></div></div>', thumb : '', url : ''},
+
+                    {image : './images/slider/super/fondo1.jpg', title : '<div id="logoBig"><img class="img-responsive" src="images/logo-big.png" alt="BF" /></div></div>', thumb : '', url : ''},
+
+                    {image : './images/slider/super/fondo1.jpg', title : '<div id="logoBig"><img class="img-responsive" src="images/slogan.png" alt="BF" /></div></div>', thumb : '', url : ''},
+
+                    {image : './images/slider/super/fondo1.jpg', title : '<div id="logoBig"><img class="img-responsive" src="images/logo-big.png" alt="BF" /></div></div>', thumb : '', url : ''}
                     ],
 
                     // Theme Options               
