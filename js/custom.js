@@ -1661,8 +1661,9 @@ jQuery(function($){
 	"use strict";
 	if($('#superSizedSlider').length){
 		$('#superSizedSlider').height($(window).height());
+        $('#superSizedSlider').width($(window).width());
         //inicio agregado por emilio
-        $('#slidecaption').height($(window).height()-($(window).height()/9));
+        $('#slidecaption').height($(window).height()-($(window).height()/7));
         $('#slidecaption').width($(window).width());
 		// fin agregado de emilio
         $.supersized({
@@ -1673,7 +1674,7 @@ jQuery(function($){
                     start_slide             :   1,          // Start slide (0 is random)
                     stop_loop               :   0,          // Pauses slideshow on last slide
                     random                  :   0,          // Randomize slide order (Ignores start slide)
-                    slide_interval          :   12000,      // Length between transitions
+                    slide_interval          :   1200,      // Length between transitions
                     transition              :   1,          // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
                     transition_speed        :   1000,       // Speed of transition
                     new_window              :   1,          // Image links open in new window/tab
