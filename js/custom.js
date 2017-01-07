@@ -1375,7 +1375,7 @@ function appendBootstrap() {
 	if($('#mapWrapper').length){
 		var script = document.createElement("script");
 		script.type = "text/javascript";
-		script.src = "http://maps.google.com/maps/api/js?sensor=false&callback=initialize";
+		script.src = "http://maps.google.com/maps/api/js?sensor=false&callback=initialize&key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es";
 		document.body.appendChild(script);
 	}
 }    
@@ -1387,20 +1387,11 @@ function initialize(id) {
 	"use strict";
 	var image = 'images/icon-map.png';
 
-	var overlayTitle = 'Agencies';
+	var overlayTitle = 'BF Consultoría Legal';
 
 	var locations = [
-        //point number 1
-        ['Madison Square Garden', '4 Pennsylvania Plaza, New York, NY'],
-
         //point number 2
-        ['Best town ever', 'Santa Cruz', 36.986021, -122.02216399999998],
-
-        //point number 3 
-        ['Located in the Midwestern United States', 'Kansas'],
-
-        //point number 4
-        ['I\'ll definitly be there one day', 'Chicago', 41.8781136, -87.62979819999998] 
+        ['BF Consultoría Legal', 'Santa Cruz', -34.5993763, -58.38855390000003]
         ];
 
         /*** DON'T CHANGE ANYTHING PASSED THIS LINE ***/
@@ -1676,7 +1667,7 @@ jQuery(function($){
                     random                  :   0,          // Randomize slide order (Ignores start slide)
                     slide_interval          :   1200,      // Length between transitions
                     transition              :   1,          // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-                    transition_speed        :   1000,       // Speed of transition
+                    transition_speed        :   3000,       // Speed of transition
                     new_window              :   1,          // Image links open in new window/tab
                     pause_hover             :   0,          // Pause slideshow on hover
                     keyboard_nav            :   1,          // Keyboard navigation on/off
