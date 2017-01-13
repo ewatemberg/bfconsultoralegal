@@ -25,10 +25,15 @@ g<!DOCTYPE html>
 	<link rel="stylesheet" type="text/css" href="js-plugin/magnific-popup/magnific-popup.css" />
 	<link type="text/css" rel="stylesheet" href="js-plugin/isotope/css/style.css">
 	<!-- nekoAnim-->
-	<link rel="stylesheet" type="text/css" href="js-plugin/appear/nekoAnim.css" />
-		<!-- Supersized slider-->
-	<link rel="stylesheet" href="js-plugin/supersized/css/supersized.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="js-plugin/supersized/theme/supersized.shutter.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="js-plugin/appear/nekoAnim.css" />	
+
+	<!-- Supersized slider-->
+	<!--link rel="stylesheet" href="js-plugin/supersized/css/supersized.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="js-plugin/supersized/theme/supersized.shutter.css" type="text/css" media="screen" /-->
+	<!-- Revolution Slider EMILIO-->
+	<link rel="stylesheet" type="text/css" href="js-plugin/revolution-slider/rs-plugin/css/navstylechange.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="js-plugin/revolution-slider/rs-plugin/css/settings-hideo.css" media="screen" />
+
 	<!-- Owl carousel-->
 	<link rel="stylesheet" href="js-plugin/owl.carousel/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="js-plugin/owl.carousel/owl-carousel/owl.theme.css">	
@@ -98,8 +103,8 @@ g<!DOCTYPE html>
 							<li><a href="#about">Nosotros</a></li>
 							<li class="sep"></li>
 							<li><a href="#clients">Clientes</a></li>
-							<li class="sep"></li>
-							<!--li><a href="#alianzas">Alianzas</a></li-->
+							<!--li class="sep"></li>
+							<li><a href="#alianzas">Alianzas</a></li-->
 							<li class="sep"></li>
 							<li> <a href="#contactSlice">Contacto</a> </li>
 							<!--li class="sep"></li>
@@ -114,14 +119,171 @@ g<!DOCTYPE html>
 		<!-- header -->
 
 		<!-- slider -->
-		<section id="superSizedSlider" class="scrollMenu">
+		<!--section id="superSizedSlider" class="scrollMenu"-->
 			<!--Arrow Navigation-->
-			<a id="prevslide" class="load-item"></a> <a id="nextslide" class="load-item"></a>
+			<!--a id="prevslide" class="load-item"></a> <a id="nextslide" class="load-item"></a>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div id="slidecaption" style="display:table-cell;vertical-align: middle;text-align:center;margin:auto;"></div>
 					</div>
+				</div>
+			</div>
+		</section-->
+
+		<section id="rsDemoWrapper">
+			<div class="tp-banner-container">
+				<div class="tp-banner" >
+					<ul>	<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+							<!-- MAIN IMAGE -->
+							<img src="images/slider/rs-slider/slider-1/bg1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption tp-resizeme"
+								data-x="center" data-hoffset="0"
+								data-y="150"
+								data-speed="600"
+								data-start="1400"
+								data-endspeed="600"
+							>
+								<img src="images/slider/rs-slider/slider-1/logo-big.png" alt="Hideo Logo" />
+
+							</div>
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption large_bold_white customin customout tp-resizeme"
+								data-x="center" data-hoffset="0"
+								data-y="250"
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="600"
+								data-start="2400"
+								data-easing="Power4.easeOut"
+								data-endspeed="600"
+								data-endeasing="Power0.easeIn"
+								style="z-index: 3">Versatile website template
+
+							</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption medium_light_white customin customout tp-resizeme"
+								data-x="center" data-hoffset="0"
+								data-y="bottom" data-voffset="-140"
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="600"
+								data-start="2700"
+								data-easing="Power4.easeOut"
+								data-endspeed="600"
+								data-endeasing="Power0.easeIn"
+								style="z-index: 4">Mobile first design, Retina Ready UI
+							</div>
+						</li>
+
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+							<!-- MAIN IMAGE -->
+							<img src="images/slider/rs-slider/slider-1/bg2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption largeblackbg skewfromleft tp-resizeme"
+								data-x="20" data-hoffset="0"
+								data-y="200"
+								data-speed="600"
+								data-start="1400"
+								data-easing="Power4.easeOut"
+								data-endspeed="600"
+								data-endeasing="Power0.easeIn"
+								style="z-index: 3">Enter the future
+
+							</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption medium_light_white skewfromleft tp-resizeme"
+								data-x="20" data-hoffset="0"
+								data-y="280"
+								data-speed="600"
+								data-start="1800"
+								data-easing="Power4.easeOut"
+								data-endspeed="600"
+								data-endeasing="Power0.easeIn"
+								style="z-index: 3">Premium website template
+
+							</div>
+
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption medium_light_white skewfromleft tp-resizeme"
+								data-x="20" data-hoffset="0"
+								data-y="320"
+								data-speed="600"
+								data-start="2200"
+								data-easing="Power4.easeOut"
+								data-endspeed="600"
+								data-endeasing="Power0.easeIn"
+								style="z-index: 3"><strong>made with love</strong> by Little Neko
+
+							</div>
+
+						</li>
+
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+							<!-- MAIN IMAGE -->
+							<img src="images/slider/rs-slider/slider-1/bg3.jpg"  alt="slidebg3"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption largeblackbg skewfromleft tp-resizeme"
+								data-x="20" data-hoffset="0"
+								data-y="200"
+								data-speed="600"
+								data-start="1400"
+								data-easing="Power4.easeOut"
+								data-endspeed="600"
+								data-endeasing="Power0.easeIn"
+								style="z-index: 3">Beautiful and flexible
+
+							</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption medium_light_white skewfromleft tp-resizeme"
+							data-x="20" data-hoffset="0"
+							data-y="280"
+							data-speed="600"
+							data-start="1800"
+							data-easing="Power4.easeOut"
+							data-endspeed="600"
+							data-endeasing="Power0.easeIn"
+							style="z-index: 3"><i class="icon-right-open-mini"></i>40+ template layout
+
+							</div>
+
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption medium_light_white skewfromleft tp-resizeme"
+							data-x="20" data-hoffset="0"
+							data-y="320"
+							data-speed="600"
+							data-start="2200"
+							data-easing="Power4.easeOut"
+							data-endspeed="600"
+							data-endeasing="Power0.easeIn"
+							style="z-index: 3"><i class="icon-right-open-mini"></i>Bootstrap 3 + Neko CSS Framework
+
+							</div>
+
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption medium_light_white skewfromleft tp-resizeme"
+								data-x="20" data-hoffset="0"
+								data-y="360"
+								data-speed="600"
+								data-start="2600"
+								data-easing="Power4.easeOut"
+								data-endspeed="600"
+								data-endeasing="Power0.easeIn"
+								style="z-index: 3"><i class="icon-right-open-mini"></i>Custom font icon set
+
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</section>
@@ -538,8 +700,11 @@ g<!DOCTYPE html>
 	<!-- carousel -->
 	<script type="text/javascript" src="js-plugin/owl.carousel/owl-carousel/owl.carousel.js"></script>
 	<!-- Supersized slider -->
-	<script type="text/javascript" src="js-plugin/supersized/js/supersized.3.2.7.min.js"></script>
-	<script type="text/javascript" src="js-plugin/supersized/theme/supersized.shutter.min.js"></script>
+	<!--script type="text/javascript" src="js-plugin/supersized/js/supersized.3.2.7.min.js"></script>
+	<script type="text/javascript" src="js-plugin/supersized/theme/supersized.shutter.min.js"></script-->
+	<!-- Revolution slider -->
+	<script type="text/javascript" src="js-plugin/revolution-slider/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+	<script type="text/javascript" src="js-plugin/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 	<!-- Isotope -->
 	<script type="text/javascript" src="js-plugin/isotope/jquery.isotope.min.js"></script>
 	<script type="text/javascript" src="js-plugin/isotope/jquery.isotope.sloppy-masonry.min.js"></script>
