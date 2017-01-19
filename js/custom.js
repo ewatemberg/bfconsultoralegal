@@ -1385,13 +1385,13 @@ function appendBootstrap() {
 
 function initialize(id) {
     "use strict";
-    var image = 'images/icon-map.png';
+    var image = 'images/icon-map2.png';
 
     var overlayTitle = 'BF Consultoría Legal';
 
     var locations = [
         //point number 2
-        ['BF Consultoría Legal', 'Santa Cruz', -34.5993763, -58.38855390000003]
+        ['BF Consultoría Legal', '', -34.5993763, -58.38855390000003]
         ];
 
         /*** DON'T CHANGE ANYTHING PASSED THIS LINE ***/
@@ -1407,7 +1407,7 @@ function initialize(id) {
             },
             streetViewControl:true,
             scaleControl:false,
-            zoom: 14,
+            zoom: 15,
             styles:[
             {
                 "featureType": "water",
@@ -1546,11 +1546,22 @@ for (i = 0; i < locations.length; i++) {
             myLatlng = new google.maps.LatLng(locations[i][2], locations[i][3]);
 
             marker = new google.maps.Marker({
+                animation: google.maps.Animation.DROP,
                 position: myLatlng,
                 icon:image,  
                 title: overlayTitle,
                 map: map
             });
+
+            marker.addListener('click', toggleBounce);
+
+            function toggleBounce() {
+              if (marker.getAnimation() !== null) {
+                marker.setAnimation(null);
+              } else {
+                marker.setAnimation(google.maps.Animation.BOUNCE);
+              }
+            }
 
             google.maps.event.addListener(marker, 'click', (function() {
                 return function() {
