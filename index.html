@@ -224,7 +224,7 @@ g<!DOCTYPE html>
 								data-start="200"
 								data-endspeed="200"
 							>
-								<img src="images/slider/rs-slider/slider-1/slogan.png" alt="" />
+								<img id="slogan" src="" alt="" />
 							</div>
 						</li>
 					</ul>
@@ -692,6 +692,13 @@ g<!DOCTYPE html>
 			$('#comments').text("");
 			$('#phone').text("");
 		});
+
+		//render img slogan
+		if($(window).width() > 767) {
+        	$("#slogan").attr("src", "images/slider/rs-slider/slider-1/slogan_small.png");
+     	} else {
+        	$("#slogan").attr("src", "images/slider/rs-slider/slider-1/slogan.png");
+     	};
 	
 	});
 		
