@@ -755,9 +755,9 @@ if($('.previewTrigger').length){
 |--------------------------------------------------------------------------
 */
 
-// $('#resMainMenu .nav a').on('click', function(){
-//     $(".navbar-toggle").click();
-// });
+$('#resMainMenu .nav a').on('click', function(){
+     $(".navbar-toggle").click();
+});
 
 
 
